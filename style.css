@@ -5,13 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.credits {
-    position: fixed;
-    bottom: 15px;
-    text-align: center;
-    max-width: 75%;
-}
-
 body {
     height: 100vh;
     display: flex;
@@ -263,4 +256,12 @@ h1 {
 
 .leaderboard button:hover {
     transform: scale(1.1);
+}
+
+/* credits */
+.credits {
+    position: fixed;
+    bottom: 15px;
+    text-align: center;
+    max-width: 75%;
 }
